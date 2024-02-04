@@ -458,6 +458,7 @@ class FlutterSliderState extends State<FlutterSlider>
 
           return Stack(
             clipBehavior: Clip.none,
+            alignment: Alignment.center,
             children: <Widget>[
               //..._points,
               Container(
